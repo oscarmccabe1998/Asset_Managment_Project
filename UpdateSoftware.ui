@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateSoftware</class>
+ <widget class="QMainWindow" name="UpdateSoftware">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edit Software</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="Instructionlabel">
+      <property name="text">
+       <string>Edit the information and click update software to update the database entry or click scan to get the information from this machine</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="NameDescriptionlabel">
+      <property name="text">
+       <string>OS Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="OSNameEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="OSProductVersionLabel">
+      <property name="text">
+       <string>Product Version</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="ProductVersionEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="OSBuildVersionlabel">
+      <property name="text">
+       <string>Build Version</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="OSBuildVersionEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="OSManufacturerlabel">
+      <property name="text">
+       <string>Manufacturer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="OSManufacturerEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="UpdateSoftwareButton">
+      <property name="text">
+       <string>Update Software</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SoftwareScanButton">
+      <property name="text">
+       <string>Scan this machine</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="GoBackButton">
+      <property name="text">
+       <string>Go Back</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
